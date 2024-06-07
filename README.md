@@ -1,2 +1,2 @@
-# 2312LibraryMS
+# LibraryMS
  Library Management System
