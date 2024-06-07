@@ -1,0 +1,26 @@
+@import "../../../theme.scss";
+:host {
+    display: box;
+    width: 200px;
+  }
+  
+  mat-card {
+      width: 400px;
+    mat-card-header {
+      display: flex;
+      justify-content: center;
+  
+      mat-card-title {
+        font-size: 2rem;
+        color: $dark-accent-A200;
+      }
+    }
+    mat-card-content {
+        
+        table {
+            .mat-column-name {
+                border-right: 1px solid $dark-accent-A200;
+            }
+        }
+    }
+}

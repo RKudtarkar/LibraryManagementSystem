@@ -1,0 +1,66 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>category</mat-card-title>
+    </mat-card-header>
+    <mat-card-content [formGroup]="newCategory">
+        <mat-form-field color="accent">
+            <mat-label>Category</mat-label>
+            <input matInput formControlName="category">
+        </mat-form-field>
+        <mat-form-field color="accent">
+            <mat-label>SubCategory</mat-label>
+            <input matInput formControlName="subCategory">
+        </mat-form-field>
+        <button mat-stroked-button color="accent" [disabled]="newCategory.invalid" (click)="addNewCategory()">save</button>
+    </mat-card-content>
+</mat-card>
+
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Add New Book</mat-card-title>
+    </mat-card-header>
+    <mat-card-content [formGroup]="newBook">
+        <mat-form-field color="accent">
+            <mat-label>Title</mat-label>
+            <input matInput formControlName="title">
+        </mat-form-field>
+        <mat-form-field color="accent">
+            <mat-label>Author</mat-label>
+            <input matInput formControlName="author">
+        </mat-form-field>
+        <mat-form-field color="accent">
+            <mat-label>Price</mat-label>
+            <input matInput formControlName="price">
+        </mat-form-field>
+        <mat-form-field color="accent" >
+            <mat-label>category</mat-label>
+            <mat-select formControlName="category" #categorySelect>
+                @for (option of categoryOptions; track categoryOptions) {
+                <mat-option [value]="option.value">
+                    {{option.displayValue}}
+                </mat-option>
+            }
+            </mat-select>
+        </mat-form-field>
+        <button mat-stroked-button color="accent" [disabled]="newCategory.invalid || categorySelect.empty" (click)="addNewBook()">save</button>
+    </mat-card-content>
+</mat-card>
+
+
+<mat-card>
+    <mat-card-header>
+        <h1>Delete Existing Book</h1>
+    </mat-card-header>
+
+    <mat-card-content>
+        <mat-form-field color="accent">
+            <mat-label>Book ID</mat-label>
+            <input matInput [formControl]="deleteBook">
+        </mat-form-field>
+
+        <button mat-stroked-button color="accent" [disabled]="deleteBook.invalid"
+                (click)="deleteExistingBook()">
+            <span>Delete</span>
+        </button>
+    </mat-card-content>
+</mat-card>

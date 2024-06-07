@@ -1,0 +1,35 @@
+@import "../../../theme.scss";
+
+:host {
+  display: box;
+  width: 200px;
+}
+
+mat-card {
+    width: 400px;
+  mat-card-header {
+    display: flex;
+    justify-content: center;
+
+    mat-card-title {
+      font-size: 2rem;
+      color: $dark-accent-A200;
+    }
+  }
+
+  mat-grid-tile {
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  mat-card-actions {
+    button {
+      margin: auto;
+      width: 100%;
+    }
+    h2 {
+      margin: 0px;
+      padding-right: 1rem;
+    }
+  }
+}

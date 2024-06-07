@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|d:\\basic\\angularprojects\\projects\\git for lms\\2312libraryms\\api\\api\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|d:\\basic\\angularprojects\\projects\\git for lms\\2312libraryms\\api\\api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|d:\\basic\\angularprojects\\projects\\git for lms\\2312libraryms\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|d:\\basic\\angularprojects\\projects\\git for lms\\2312libraryms\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|d:\\basic\\angularprojects\\projects\\git for lms\\2312libraryms\\api\\api\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\User.cs",
+              "ToolTip": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Entities\\User.cs",
+              "RelativeToolTip": "API\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:57:11.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\EmailService.cs",
+              "RelativeDocumentMoniker": "API\\EmailService.cs",
+              "ToolTip": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\EmailService.cs",
+              "RelativeToolTip": "API\\EmailService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:36:08.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Controllers\\LibraryController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\LibraryController.cs",
+              "ToolTip": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Controllers\\LibraryController.cs",
+              "RelativeToolTip": "API\\Controllers\\LibraryController.cs",
+              "ViewState": "AQIAAKQAAAAAAAAAAAAwwK8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T09:21:20.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T09:03:19.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\Basic\\AngularProjects\\Projects\\git for LMS\\2312LibraryMS\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:06:36.405Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
